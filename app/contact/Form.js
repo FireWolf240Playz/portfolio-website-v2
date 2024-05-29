@@ -1,10 +1,9 @@
 "use client";
 
-import Button from "../_components/Button";
 import { useForm, ValidationError } from "@formspree/react";
 
 function Form() {
-  const [state, handleSubmit] = useForm("xrgnvnjn");
+  const [state, handleSubmit] = useForm(process.env.NEXT_PUBLIC_FORM);
 
   if (state.submitting) return <p>Submitting...</p>;
 
@@ -16,8 +15,6 @@ function Form() {
     <form
       className="flex flex-col gap-5 justify-center h-screen"
       onSubmit={handleSubmit}
-      action="https://formspree.io/f/xrgnvnjn"
-      method="POST"
     >
       <div className="flex flex-col justify-center gap-4 w-8/12">
         <label htmlFor="name">What is your name?</label>
@@ -58,9 +55,12 @@ function Form() {
           errors={state.errors}
         />
       </div>
-      <Button type="submit" extension="w-8/12 flex justify-center rounded-md">
+      <button
+        type="submit"
+        className="w-8/12 flex justify-center rounded-md py-3 px-5 bg-accent-500  min-width: fit-content hover:bg-accent-600 transition-all duration-500 text-primary-100"
+      >
         Submit
-      </Button>
+      </button>
     </form>
   );
 }
