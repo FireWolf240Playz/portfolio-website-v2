@@ -1,24 +1,11 @@
 "use client";
 
-import { useForm } from "@formspree/react";
-import FormElement from "@/app/contact/FormElement";
-import { redirect } from "next/navigation";
+import { ValidationError } from "@formspree/react";
 
-function Form() {
-  const [state, handleSubmit] = useForm(process.env.NEXT_PUBLIC_FORM);
-
-  if (state.submitting) {
-    return (
-      <div className="flex justify-center items-center h-screen">
-        <p className="text-4xl uppercase">Submitting...</p>
-      </div>
-    );
-  }
-
-<<<<<<< HEAD
+function FormElement({ handleSubmit, state }) {
   return (
     <form
-      className="flex flex-col gap-5 justify-center items-center h-1/6"
+      className="flex flex-col gap-5 justify-center h-screen"
       onSubmit={handleSubmit}
     >
       <div className="flex flex-col justify-center gap-4 w-8/12">
@@ -68,13 +55,6 @@ function Form() {
       </button>
     </form>
   );
-=======
-  if (state.succeeded) {
-    redirect("/thankyou");
-  }
-
-  return <FormElement state={state} handleSubmit={handleSubmit} />;
->>>>>>> aba3f62d37b89a437de42f51684b7417c3234858
 }
 
-export default Form;
+export default FormElement;
