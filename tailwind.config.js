@@ -7,6 +7,10 @@ module.exports = {
   ],
   theme: {
     extend: {
+      screens: {
+        "max-600": { max: "600px" },
+        "max-800": { max: "800px" }, // Added custom breakpoint for 800px
+      },
       colors: {
         primary: {
           50: "#E1E8EF",

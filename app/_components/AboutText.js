@@ -1,6 +1,6 @@
 function AboutText() {
   return (
-    <p className="mb-[2rem] text-primary-100 leading-relaxed break-all">
+    <p className="mb-[2rem] text-primary-100 break-words sm:break-all md:break-normal lg:break-words max-600:text-justify">
       Welcome to my portfolio! I&apos;m a passionate web developer specializing
       in building dynamic and responsive websites using React, Next.js, HTML,
       and CSS.

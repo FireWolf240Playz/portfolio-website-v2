@@ -13,7 +13,8 @@ function ProjectDescription({
       <h3 className="text-lg mb-5 font-bold">{title}</h3>
       <p className="mb-5">{description}</p>
       <div
-        className={classNames("flex gap-6", {
+        className={classNames("flex gap-6 max-[700]:flex ", {
+          "justify-center": "max-w-[700px]",
           "justify-end": position === "right",
         })}
       >

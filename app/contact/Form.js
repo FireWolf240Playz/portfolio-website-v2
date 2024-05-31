@@ -13,7 +13,7 @@ function Form() {
 
   return (
     <form
-      className="flex flex-col gap-5 justify-center h-screen"
+      className="flex flex-col gap-5 justify-center items-center h-1/6"
       onSubmit={handleSubmit}
     >
       <div className="flex flex-col justify-center gap-4 w-8/12">
