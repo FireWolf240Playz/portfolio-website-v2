@@ -21,7 +21,7 @@ function Page() {
               Streamlines the reservation process, ensuring seamless
               customer experiences and optimized workflow for the staff.`}
           githubLink="https://github.com/FireWolf240Playz/the-wild-oasis"
-          demoLink="https://the-wild-oasis-by-alexander-yordanov.netlify.app/dashboard"
+          demoLink="https://the-wild-oasis-by-alexander-yordanov.netlify.app/login"
         />
 
         <ProjectImage image={image1} />
