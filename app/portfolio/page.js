@@ -51,8 +51,8 @@ function Page() {
         <ProjectImage image={image4} />
 
         <ProjectDescription
-          githubLink="/"
-          demoLink="/"
+          githubLink="/https://github.com/FireWolf240Playz/worldwise"
+          demoLink="/https://worldwise-five-kappa.vercel.app/"
           title="World Wise"
           description="An intuitive app that allows users to bookmark their most recent trips with a simple click on the map. It also provides general information about each country, making it easy to track your travels and learn more about your destinations."
           position="right"
