@@ -27,7 +27,7 @@ const techStackList = [
 function TechStack() {
   return (
     <div>
-      <ul className="flex gap-10 mb-10 max-600:flex-col   max-600:items-center">
+      <ul className="flex gap-10 mb-10 max-600:flex-wrap max-600:justify-center ">
         {techStackList.map((item) => (
           <TechStackItem item={item} key={item.label} />
         ))}

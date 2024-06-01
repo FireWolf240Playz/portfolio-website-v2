@@ -14,12 +14,12 @@ function Page() {
   return (
     <Section>
       <>
-        <div className="flex flex-col gap-5 justify-center items-center h-screen ">
+        <div className="flex flex-col gap-5 justify-center items-center h-screen max-800:h-fit max-800:mt-5">
           <h1 className="inline-block text-4xl uppercase max-800:text-center ">
             If you like what you see...
           </h1>
           <p className="text-2xl">
-            Let&apos;s get in touch {width < 800 ? " 👇" : "👉"}{" "}
+            Let&apos;s get in touch {width < 800 ? " 👇" : "👉"}
           </p>
         </div>
       </>

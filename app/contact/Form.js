@@ -1,6 +1,7 @@
 "use client";
 
 import { useForm, ValidationError } from "@formspree/react";
+import { redirect } from "next/navigation";
 
 function Form() {
   const [state, handleSubmit] = useForm(process.env.NEXT_PUBLIC_FORM);
@@ -12,6 +13,8 @@ function Form() {
       </div>
     );
   }
+
+  if (state.succeeded) redirect("/thankyou");
 
   return (
     <form
