@@ -18,10 +18,10 @@ function Page() {
           title="The Wild Oasis"
           description={` An internal tool designed for employees to efficiently manage
               bookings and stays at the hotel.
-              Streamlines the reservation process, ensuring seamless
+              Streamlines the reservation process, ensuring seamless 
               customer experiences and optimized workflow for the staff.`}
           githubLink="https://github.com/FireWolf240Playz/the-wild-oasis"
-          demoLink="https://the-wild-oasis-by-alexander-yordanov.netlify.app/login"
+          demoLink="https://the-wild-oasis-by-alexander-yordanov.netlify.app/"
         />
 
         <ProjectImage image={image1} />
