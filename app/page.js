@@ -7,7 +7,7 @@ export default function Home() {
     <div className="flex items-center justify-center min-h-screen gap-[20rem] max-800:gap-[5rem] max-800:flex-col-reverse max-1000:gap-[2rem]">
       <div className="flex flex-col ">
         <p className="text-[3.5rem] font-bold mb-10 text-start max-1000:text-[2.5rem] max-800:text-center text-primary-100 leading-[3rem] tracking-wider ">
-          Front-End React <br /> Developer
+          Front-End React <br /> Developer 👋
         </p>
         <p className="max-800:text-center text-start text-2xl mb-10 max-800:mb-5  max-1000:text-xl">
           Hi, I&apos;m Alexander Yordanov!

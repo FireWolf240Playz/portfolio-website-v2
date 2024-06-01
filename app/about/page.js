@@ -6,7 +6,7 @@ function Page() {
     <div className="flex bg-primary-800 px-8  items-center justify-around min-h-screen">
       <div className="max-600:flex max-600:flex-col flex flex-col ">
         <p className="text-primary-100 mb-10 text-center font-bold text-2xl">
-          Front-end Developer based in Varna,Bulgaria! 😃
+          Front-end Developer based in Varna,Bulgaria! 🌊
         </p>
         <AboutText />
 
