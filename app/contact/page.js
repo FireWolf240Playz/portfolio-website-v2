@@ -15,7 +15,7 @@ function Page() {
     <Section>
       <>
         <div className="flex flex-col gap-5 justify-center items-center h-screen max-800:h-fit max-800:mt-5">
-          <h1 className="inline-block text-4xl uppercase max-800:text-center ">
+          <h1 className="inline-block text-4xl max-800:text-center ">
             If you like what you see...
           </h1>
           <p className="text-2xl">
