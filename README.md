@@ -1,3 +1,33 @@
+Alexander Yordanov - Portfolio
+
+Welcome to my personal portfolio website. This site showcases my projects and skills as a Front-end React Developer, based in Varna, Bulgaria. Explore my work, learn about my tech stack, and get in touch.
+
+Tech Stack
+
+Next.js: React framework for building fast and user-friendly web applications.
+
+**Tailwind CSS**: Utility-first CSS framework for rapid UI development.
+
+**Framer Motion**: Library for animations and transitions.
+
+**Features**
+
+**Responsive Design**: Optimized for various devices and screen sizes.
+
+**Animated Transitions**: Smooth animations using Framer Motion.
+
+**Modern UI:** Styled with Tailwind CSS for a sleek and professional look.
+
+**Project Showcase**: Detailed view of my projects with descriptions and links.
+
+**Contact Form**: Get in touch with me directly through the site.
+
+**Getting Started**
+
+Prerequisites
+Node.js
+npm or yarn
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
