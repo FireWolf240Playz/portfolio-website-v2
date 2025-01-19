@@ -5,13 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a9d6e747-c6f6-4f37-952f-0b745dc7ec63" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/portfolio/_sectionComponents/FrontendProjects.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/portfolio/_sectionComponents/FrontendProjects.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/_components/Carousel.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/_components/LightBox.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/portfolio/[id]/page.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/_components/TechStackItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/_components/TechStackItem.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/portfolio/_sectionComponents/FullStackProjects.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/portfolio/_sectionComponents/FullStackProjects.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/portfolio/_sectionComponents/ProjectDescription.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/portfolio/_sectionComponents/ProjectDescription.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/portfolio/_sectionComponents/ProjectImage.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/portfolio/_sectionComponents/ProjectImage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/project-5.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/project-5.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vercel.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/invetory-managment-photos/account.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/invetory-managment-photos/account.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/invetory-managment-photos/employees.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/invetory-managment-photos/employees.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/invetory-managment-photos/licenses.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/invetory-managment-photos/licenses.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,38 +25,39 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JSX File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2rqT2zgWNxiYcoBUPtZbFVNpoOD" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/GRIGS/Desktop/portfolio-website-v3",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "prettierjs.PrettierConfiguration.Package": "C:\\Users\\GRIGS\\AppData\\Roaming\\npm\\node_modules\\prettier",
-    "settings.editor.selected.configurable": "settings.javascript.prettier",
-    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\WebStorm 2024.3\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/GRIGS/Desktop/portfolio-website-v3&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;C:\\Users\\GRIGS\\AppData\\Roaming\\npm\\node_modules\\prettier&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.javascript.prettier&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\WebStorm 2024.3\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\GRIGS\Desktop\portfolio-website-v3\public" />
@@ -76,6 +80,7 @@
       <option name="presentableId" value="Default" />
       <updated>1737285401707</updated>
       <workItem from="1737285402771" duration="4638000" />
+      <workItem from="1737290310624" duration="5783000" />
     </task>
     <servers />
   </component>
