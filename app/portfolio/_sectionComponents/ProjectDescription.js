@@ -7,6 +7,7 @@ function ProjectDescription({
   githubLink,
   demoLink,
   position = "",
+  optionalText = "",
 }) {
   return (
     <div className="text-left p-4">
@@ -22,7 +23,7 @@ function ProjectDescription({
           See the git repo!
         </Button>
         <Button to={demoLink} newTab={true}>
-          See live demo!
+          {optionalText ? optionalText : "See live demo"}
         </Button>
       </div>
     </div>
