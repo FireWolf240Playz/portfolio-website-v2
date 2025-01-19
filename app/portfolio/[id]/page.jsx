@@ -20,8 +20,12 @@ export default function ProjectPage({ params }) {
       description: `A robust inventory management application designed to streamline the handling of devices, employees, software licenses, and user authentication.`,
       stack: [
         { label: "React", icon: <FaReact />, color: "text-blue-500" },
-        { label: "Node.js", icon: <FaNodeJs />, color: "text-green-500" },
         { label: "MongoDB", icon: <FaDatabase />, color: "text-green-600" },
+        {
+          label: "Node.js with Express.js",
+          icon: <FaNodeJs />,
+          color: "text-green-500",
+        },
       ],
       functionalities: [
         "User authentication with secure login/logout (JWT)",
@@ -60,6 +64,8 @@ export default function ProjectPage({ params }) {
           title={project.title}
           description={project.description}
           githubLink={project.githubLink}
+          noLiveDemo={true}
+          position="left"
         />
         <div className="mt-6">
           <Carousel images={project.images} />
@@ -67,8 +73,9 @@ export default function ProjectPage({ params }) {
       </Section>
 
       <Section>
-        <h2 className="text-2xl font-bold mb-4">Technology Stack</h2>
-        <ul className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+        <h2 className="text-2xl font-bold mb-4 ">Technology Stack</h2>
+
+        <ul className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 ">
           {project.stack.map((tech, index) => (
             <TechStackItem key={index} item={tech} />
           ))}
