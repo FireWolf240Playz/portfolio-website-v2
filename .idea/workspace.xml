@@ -4,11 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a9d6e747-c6f6-4f37-952f-0b745dc7ec63" name="Changes" comment="" />
+    <list default="true" id="a9d6e747-c6f6-4f37-952f-0b745dc7ec63" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/_components/Button.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/_components/Button.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/portfolio/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/portfolio/page.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JSX File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -53,7 +64,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1737285401707</updated>
-      <workItem from="1737285402771" duration="373000" />
+      <workItem from="1737285402771" duration="1383000" />
     </task>
     <servers />
   </component>
