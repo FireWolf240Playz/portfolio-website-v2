@@ -4,6 +4,7 @@ import image2 from "@/public/project-2.png";
 import ProjectDescription from "@/app/portfolio/_sectionComponents/ProjectDescription";
 import image3 from "@/public/project-3.png";
 import image4 from "@/public/project-4.png";
+import image5 from "@/public/project-5.png";
 
 function FrontendProjects() {
   return (
@@ -38,6 +39,15 @@ function FrontendProjects() {
           description="An intuitive app that allows users to bookmark their most recent trips with a simple click on the map. It also provides general information about each country, making it easy to track your travels and learn more about your destinations."
           position="right"
         />
+      </Section>
+      <Section>
+        <ProjectDescription
+          demoLink="https://forkify-app-lac.vercel.app/"
+          title="Forkify app"
+          githubLink="https://github.com/FireWolf240Playz/forkify-app"
+          description="A versatile app for food lovers to browse recipes, add their own creations, and bookmark favorites. Cooking and organizing recipes has never been easier!"
+        />
+        <ProjectImage image={image5} />
       </Section>
     </>
   );
